@@ -184,7 +184,8 @@ li.nav-item .btn-white {
 }
 
 .cover {
-	background: #000 url('../images/back1.png') center;
+	background: #000 url('../images/back1.png');
+	background-position-x: -180px;
 	background-size: 40%;
 	background-repeat: no-repeat;
 	min-height: 57rem;
