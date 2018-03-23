@@ -20,19 +20,7 @@ body {
 	/* Non-prefixed version, currently
 									supported by Chrome and Opera */
 }
-
-/* .banner{
-	z-index: 1000;
-}
-
-.counter{
-	z-index: 1000;
-}
-
-.navbar{
-	z-index: 1001;
-} */
-
+/*----------------------*/
 .banner_text {
 	text-align: center;
 	font-weight: 900px;
@@ -46,7 +34,7 @@ body {
 	letter-spacing: 1px;
 	font-family: 'Roboto Condensed', sans-serif;
 }
-
+/*----------------------*/
 @media (min-width: 0px) {
 	.banner_text {
 		font-size: 60px;
@@ -95,7 +83,7 @@ body {
 a {
 	color: #fff;
 }
-
+/*----------------------*/
 .navbar-trans {
 	background: transparent;
 }
@@ -103,7 +91,7 @@ a {
 .navbar-trans.scrolled {
 	background-color: #000 !important;
 }
-
+/*----------------------*/
 .social {
 	padding-top: 40px;
 }
@@ -122,7 +110,7 @@ a {
 	padding: 0px 10px 0px 10px;
 	width: 25%;
 }
-
+/*----------------------*/
 a.navbar-brand,
 a.logo {
 	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -160,7 +148,7 @@ li.nav-item .btn-white {
 .navbar-toggler {
 	color: #fff;
 }
-
+/*----------------------*/
 .counter {
 	background: #000;
 	padding: 10px 30px 10px 30px;
@@ -182,7 +170,7 @@ li.nav-item .btn-white {
 	border-top: 3px solid #fff;
 	margin-top: 30px;
 }
-
+/*----------------------*/
 .cover {
 	background: #000 url('../images/back1.png');
 	background-position-x: -180px;
@@ -195,7 +183,7 @@ li.nav-item .btn-white {
 	color: #fff;
 	padding-top: 1rem;
 }
-
+/*----------------------*/
 .btn-primary,
 .btn-outline-primary,
 .btn-secondary,
