@@ -1,0 +1,31 @@
+.sponser_logo{
+  width: 200px;
+  height: 200px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  border-radius: 40%;
+}
+
+.sponser_name{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.sponser_type{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@keyframes toColor {
+  0%    { -webkit-filter: grayscale(100%); filter: grayscale(100%); }
+  25%   { -webkit-filter: grayscale(75%); filter: grayscale(75%); }
+  50%   { -webkit-filter: grayscale(50%); filter: grayscale(50%); }
+  75%   { -webkit-filter: grayscale(25%); filter: grayscale(25%); }
+  100%  { -webkit-filter: grayscale(0%); filter: grayscale(0%); }
+}
+
+
+img.sponser_logo:hover {
+  animation: toColor 0.5s;
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
