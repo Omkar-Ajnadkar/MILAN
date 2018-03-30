@@ -1,0 +1,22 @@
+# College Fest Website
+## Included Pages
+- Home
+- About
+- Hospitality
+- Events
+- CA
+- Sponsors
+- Team
+- Register
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+- Font Awesome
+- Google Fonts
+## Developers
+- Omkar Ajnadkar
+## Top ToDo's
+- Add Events
+- Add backend
