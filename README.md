@@ -7,6 +7,7 @@
 - CA
 - Sponsors
 - Team
+- Login
 - Register
 ## Technologies Used
 - HTML
